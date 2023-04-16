@@ -31,7 +31,7 @@ h1 {
 }
 
 s_links li a {
- transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
 }
 
 
@@ -39,3 +39,64 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+
+    background-color: black;
+    width:100%;
+    margin: 0;
+    text-align: center 
+}
+
+nav div {
+    display: inline;
+      
+}
+
+  
+div {
+
+   transition: all 1s;
+   width: 30% ;
+   padding: 20px;
+   display: inline-block;
+}
+
+div:hover {
+
+    transform: scale(1.1,1.1);
+}
+
+img  {
+
+   width: 100% ;
+   border-radius: 20px 0 20px 0;
+}
+
+.mobile {
+   display: none;
+}
+   
+
+
+/*----стили которые меняются на мобиле ----*/
+@media(max-width: 500px) {
+div {
+    width: 100%;
+}
+
+div:hover {
+  transform: none;
+}
+
+body nav:first-child li {
+  display: block;
+  text-align: center;
+}
+
+.desktop {
+    display: none;
+}
+ 
+.mobile {
+    display: block;
+}
