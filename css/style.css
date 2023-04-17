@@ -57,7 +57,7 @@ div {
 
    transition: all 1s;
    width: 30% ;
-   padding: 20px;
+   padding: 20px 0px;
    display: inline-block;
 }
 
