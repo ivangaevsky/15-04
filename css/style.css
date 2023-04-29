@@ -100,3 +100,10 @@ body nav:first-child li {
 .mobile {
     display: block;
 }
+
+img  {
+
+    width: 100% ;
+    border-radius: 20px 20px 20px 20px;
+}
+ 
